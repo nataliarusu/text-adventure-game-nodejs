@@ -1,5 +1,5 @@
 {
-  "name": "game-nodejs",
+  "name": "text-adventure-game-nodejs",
   "version": "1.0.0",
   "description": "TPXimpact game",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nataliarusu/game-nodejs.git"
+    "url": "git+https://github.com/nataliarusu/text-adventure-game-nodejs.git"
   },
   "author": "Natalia Rusu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nataliarusu/game-nodejs/issues"
+    "url": "https://github.com/nataliarusu/text-adventure-game-nodejs/issues"
   },
-  "homepage": "https://github.com/nataliarusu/game-nodejs#readme",
+  "homepage": "https://github.com/nataliarusu/text-adventure-game-nodejs#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   }
