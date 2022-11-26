@@ -1,0 +1,22 @@
+{
+  "name": "game-nodejs",
+  "version": "1.0.0",
+  "description": "TPXimpact game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliarusu/game-nodejs.git"
+  },
+  "author": "Natalia Rusu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliarusu/game-nodejs/issues"
+  },
+  "homepage": "https://github.com/nataliarusu/game-nodejs#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
