@@ -1,14 +1,19 @@
-class Player{
-  constructor(){
-    this.hearts=3;
+class Player {
+  constructor() {
+    this.hearts = 3;
   }
-  looseHert(){
-    this.hearts--;
+  looseHeart(n) {
+    const lost = Math.min(n, this.hearts);
+    this.hearts = this.hearts - lost;
+    if (n > 0) {
+      console.log(
+        `You lost ${lost} heart(s), you have ${this.hearts} heart(s) left`
+      );
+    }
   }
-  looseHerts(){
-    this.hearts=0;
+  isAlive() {
+    return !!this.hearts; //!! convert to boolean, 0 will be falsy
   }
 }
-  
-  // add the code below
-  module.exports = { Player };
+
+module.exports = { Player };
