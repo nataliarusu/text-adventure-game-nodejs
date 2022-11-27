@@ -18,17 +18,16 @@ class Room {
     do {
       let choice = Number(prompt('Type [1 | 2]: '));
       if (choice === 1 || choice === 2) {
-        return choice - 1; //0||1
+        return choice - 1;
       } else {
         console.log('Please enter valid option');
-        //choice = prompt('Type [1 | 2]: ');
       }
     } while (true);
   }
   processOption(option) {
     this.visited = true;
-    console.log(this.outcomes[option].text); //0,1
-    return this.outcomes[option].looseHeart; //expect 0 || 1
+    console.log(this.outcomes[option].text);
+    return this.outcomes[option].looseHeart;
   }
 }
 
@@ -87,7 +86,7 @@ const createRooms = () => {
         },
         {
           text: 'Your injuries and fatigue cause you to fall into a bed of hemlock. You die. Horribly. Ouch!',
-          looseHeart: 3, //all hearts =>Math.min(looseHearts,player.hearts)
+          looseHeart: 3,
         },
       ]
     )

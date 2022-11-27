@@ -8,8 +8,8 @@ const startGame = () => {
   let counter = 0;
   for (const room of rooms) {
     counter++;
-    const choise = room.promptOptions(); //numb 0||1
-    const lostHeart = room.processOption(choise); //number of lost hearts
+    const choise = room.promptOptions();
+    const lostHeart = room.processOption(choise);
     player.looseHeart(lostHeart);
     if (!player.isAlive()) {
       console.log('---------- Sorry, you lost the game! ----------');
