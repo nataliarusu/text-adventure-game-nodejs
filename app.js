@@ -20,7 +20,7 @@ const startGame = () => {
   if(counter===rooms.length){
     console.log('---------- Congratulations! You won! ----------');
     console.log(`You have ${player.hearts} heart(s) left`);
-    console.log(`You past throught all ${counter} room(s)`);
+    console.log(`You passed through all ${counter} room(s)`);
   }  
   promptReset();
 };
