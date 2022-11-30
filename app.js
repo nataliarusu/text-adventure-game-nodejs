@@ -13,7 +13,7 @@ const startGame = () => {
     player.looseHeart(lostHeart);
     if (!player.isAlive()) {
       console.log('---------- Sorry, you lost the game! ----------');
-      console.log(`You past throught ${counter} room(s)`);
+      console.log(`You passed through ${counter} room(s)`);
       break;
     }
   }
